@@ -5,7 +5,7 @@ import { Keg } from './keg.model';
   selector: 'keg-display',
   inputs: ['keg'],
   template: `
-    <h3>{{ keg.name }}<li>{{ keg.brand }}<li>$ {{ keg.price }}<li>{{ keg.abv }}%</h3>
+    <h3>{{ keg.name }}<li>{{ keg.brand }}<li>$ {{ keg.price }}<li>{{ keg.abv }}%<li>Pints Left: {{ keg.total }}</h3>
   `
 })
 export class KegComponent {
