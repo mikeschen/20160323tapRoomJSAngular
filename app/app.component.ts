@@ -12,9 +12,6 @@ import { Component } from 'angular2/core';
 export class AppComponent {
 
 }
-
-
-
 export class Keg {
   public done: boolean = false;
   constructor(public description: string, public id: number) {
