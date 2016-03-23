@@ -9,3 +9,8 @@ li {
 .selected {
   color: #22bdf0;
 }
+
+.keg-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

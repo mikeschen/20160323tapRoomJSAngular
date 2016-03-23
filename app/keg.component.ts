@@ -13,5 +13,11 @@ import { KegListComponent  } from './keg-list.component';
 export class KegComponent {
   decreaseTotal(keg) {
     keg.total-=1;
+    console.log(keg.total);
+    if (keg.total > 10) {
+      keg.low = false;
+    } else {
+      keg.low = true;
+    }
   }
 }
