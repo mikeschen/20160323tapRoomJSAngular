@@ -1,3 +1,11 @@
 h1 {
   color: brown;
 }
+
+li {
+  font-size: 16px;
+}
+
+.selected {
+  color: #22bdf0;
+}
