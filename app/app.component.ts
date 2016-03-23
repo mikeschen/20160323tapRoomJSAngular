@@ -14,6 +14,5 @@ export class AppComponent {
 }
 export class Keg {
   constructor(public description: string, public id: number) {
-
   }
 }
